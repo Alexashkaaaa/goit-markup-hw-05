@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-Frame" viewBox="0 0 32 32">
+      <path fill="#fff" d="M32 3 0 18l10 3L26 9 14 22v7l6-5 7 2 5-23z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+  </defs>
+</svg>
