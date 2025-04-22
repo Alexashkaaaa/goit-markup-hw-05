@@ -449,10 +449,9 @@ a {
 }
 .form-footer {
   display: flex;
-}
-.label-form-footer {
   gap: 24px;
 }
+
 .footer-input {
   border: 1px solid #fff;
   border-radius: 4px;
