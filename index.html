@@ -491,10 +491,12 @@
           Leave your contacts and we will call you back
         </p>
         <form>
+          <!-- name -->
           <div class="modl-form-div">
             <label class="modl-name" for="user-name">Name</label>
             <div class="input-one-div">
               <input
+              href="#"
                 class="input-one"
                 type="text"
                 name="user-name"
@@ -505,6 +507,40 @@
               </svg>
             </div>
           </div>
+          <!-- phone -->
+          <div class="modl-form-div">
+            <label class="modl-name" for="user-phone">Phone</label>
+            <div class="input-one-div">
+              <input
+                type="text"
+                class="input-one"
+                name="user-phone"
+                id="user-phone"
+              />
+              <svg class="name-modl" width="18" height="24">
+                <use href="./images/phone-vector.svg#icon-Vector-phone"></use>
+              </svg>
+            </div>
+            <!-- email -->
+             <div class="modl-form-div">
+            <label class="modl-name" for="user-email">Email</label>
+            <div class="input-one-div">
+              <input
+                type="text"
+                class="input-one"
+                name="user-email"
+                id="user-email"
+              />
+              <svg class="name-modl" width="18" height="24">
+                <use href="./images/vector-email.svg#icon-Vector-mail"></use>
+              </svg>
+            </div>
+          </div>
+          <!-- comment -->
+<div class="modl-comment">
+  <label for="textarea" class="modl-name">Comment</label>
+  <textarea href="#" class="text-comment" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+</div>
         </form>
       </div>
     </div>
