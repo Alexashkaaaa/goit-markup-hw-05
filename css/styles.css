@@ -650,7 +650,7 @@ a {
   display: inline-flex;
   fill: transparent;
 }
-.privacy-input [type="checkbox"] {
+.privacy-input:checked {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
