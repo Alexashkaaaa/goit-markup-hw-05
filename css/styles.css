@@ -608,6 +608,8 @@ a {
   margin-bottom: 16px;
 }
 .text-comment {
+  width: 360px;
+  height: 138px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
