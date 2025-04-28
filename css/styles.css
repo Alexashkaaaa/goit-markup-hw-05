@@ -541,23 +541,20 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modl-button :hover {
-  background-color: #404bbf;
-  border: none;
-}
+.modl-button :hover,
 .modl-button :focus {
   background-color: #404bbf;
   border: none;
 }
+
 .modl-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modl-icon :hover {
+.modl-button :hover .modl-icon,
+.modl-button :focus .modl-icon {
   fill: #ffffff;
 }
-.modl-icon :focus {
-  fill: #ffffff;
-}
+
 .modl-paraghraph {
   font-weight: 500;
   font-size: 16px;
